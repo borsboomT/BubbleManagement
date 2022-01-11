@@ -1,0 +1,2 @@
+# BubbleManagement
+An unfinished project management web app based on an fun idea I had. The back end is nearly complete, but the project is on hold because I lack the front end skills to make my idea work. I'll return to this once I've learned a little more javascript and some associated packages.

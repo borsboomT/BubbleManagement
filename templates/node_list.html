@@ -1,0 +1,28 @@
+{% extends 'baseBubble.html' %}
+
+{% block title %}Nodes{% endblock title %}
+
+{% block content %}
+{% for node in object_list %}
+<div class="card">
+    <div class="card-header">
+        <span class="font-weight-bold">{{ node.title }}</span> &middot;
+        <span class="text-muted">by {{ node.author }} | {{ node.date }}</span>
+    </div>
+    <div class="card-body">
+        {{ node.body }}
+        <a href="{% url 'node_edit' node.pk %}">Edit</a> |
+        <a href="{% url 'node_delete' node.pk %}">Delete</a>
+    </div>
+    <div class="card-footer">
+        {% for comment in node.comments.all %}
+        <p>
+            <span class="font-weight-bold">{{ comment.author }} &middot;</span>
+            {{ comment }}
+        </p>
+        {% endfor %}
+    </div>
+</div>
+<br/>
+{% endfor %}
+{% endblock content %}

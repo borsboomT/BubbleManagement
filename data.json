@@ -1,0 +1,90 @@
+[
+	{
+		0: {
+			"id": "Nadine",
+			"group": "two",
+			"radius": 2,
+			"citing_patents_count": 2
+		}
+	},
+	{
+		1: {
+			"id": "Feliza",
+			"group": "one",
+			"radius": 3,
+			"citing_patents_count": 3
+		}
+	},
+	{
+		2: {
+			"id": "Damaris",
+			"group": "two",
+			"radius": 2,
+			"citing_patents_count": 5
+		}
+	},
+	{
+		3: {
+			"id": "Elbertina",
+			"group": "two",
+			"radius": 1,
+			"citing_patents_count": 1
+		}
+	},
+	{
+		4: {
+			"id": "Blinni",
+			"group": "one",
+			"radius": 3,
+			"citing_patents_count": 3
+		}
+	},
+	{
+		5: {
+			"id": "Beverley",
+			"group": "three",
+			"radius": 3,
+			"citing_patents_count": 4
+		}
+	},
+	{
+		6: {
+			"id": "Basia",
+			"group": "three",
+			"radius": 2,
+			"citing_patents_count": 5
+		}
+	},
+	{
+		7: {
+			"id": "Daryl",
+			"group": "one",
+			"radius": 2,
+			"citing_patents_count": 1
+		}
+	},
+	{
+		8: {
+			"id": "Glynnis",
+			"group": "two",
+			"radius": 3,
+			"citing_patents_count": 1
+		}
+	},
+	{
+		9: {
+			"id": "Jaclyn",
+			"group": "two",
+			"radius": 1,
+			"citing_patents_count": 3
+		}
+	},
+	{
+		10: {
+			"id": "Frank",
+			"group": "two",
+			"radius": 1,
+			"citing_patents_count": 4
+		}
+	},
+]
